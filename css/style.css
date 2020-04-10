@@ -1,0 +1,72 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#table{
+    background-color: cornflowerblue;
+    border-radius: 5%;
+    border: royalblue solid 3px;
+    width: 65%;
+    height: 80%;
+    position: fixed;
+    top: 20%;
+    left: 17.5%;
+    padding: 5px;
+}
+#table td{
+    border-radius: 50%; 
+}
+#table tr{
+    padding: 5px;
+}
+
+.neutral{
+    background-color: gray;
+}
+
+.yellow{
+    background-color: gold;
+}
+
+.red{
+    background-color: firebrick;
+}
+
+.availableFields{
+    background-color: seagreen;
+}
+
+#players{
+    position: fixed;
+    top: 3%;
+    left: 80%;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.activPlayer{
+    font-size: 22px;
+    color: limegreen;
+}
+
+#newGame{   
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.unselectable{
+    cursor:default;
+}
+
+#player1{
+    color: firebrick;
+}
+
+#player2{
+    color: gold;
+}
